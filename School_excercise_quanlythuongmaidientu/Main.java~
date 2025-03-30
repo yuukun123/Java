@@ -1,0 +1,53 @@
+package School_excercise_quanlythuongmaidientu;
+
+public class Main {
+    public static void main(String[] args) {
+        Service_product product1 = new Service_product("001", "Laptop", 1, 100000, "Computer", "Used", "2022-12-31");
+        Physical_product product2 = new Physical_product("002", "Mouse", 1, 5000, "Computer", "Plastic", "Red", "S");
+        Digital_product product3 = new Digital_product("003", "Keyboard", 1, 10000, "Computer", "Used", 3);
+
+        Seller seller = new Seller("Trung", "0123456789", "HN", "Trung@codelearn.io", "Seller");
+        seller.addProduct(product1);
+        seller.addProduct(product2);
+        seller.addProduct(product3);
+
+        System.out.println("\nCurrent Menu:");
+        Manage_product.getAllProducts().forEach(System.out::println);
+
+        Buyer buyer1 = new Buyer("Trung", "0123456789", "HN", "Trung@codelearn.io");
+        Buyer buyer2 = new Buyer("Linh", "0123456789", "HN", "Linh@codelearn.io");
+        Buyer buyer3 = new Buyer("Hieu", "0123456789", "HN", "Hieu@codelearn.io");
+
+        Order order1 = new Order(buyer1);
+        order1.orderProduct("Laptop", 1);
+        order1.orderProduct("Mouse", 1);
+
+        Order order2 = new Order(buyer2);
+        order2.orderProduct("Laptop", 1);
+        order2.orderProduct("Mouse", 1);
+
+        Order order3 = new Order(buyer3);
+        order3.orderProduct("Laptop", 1);
+        order3.orderProduct("Mouse", 1);
+
+        System.out.println("\nOrder History:");
+        buyer1.addToCart(order1);
+        buyer1.placeOrder();
+        buyer1.viewOrderHistory();
+        Payment payment = new CashPay();
+        payment.payment(order1);
+
+        buyer2.addToCart(order2);
+        buyer2.placeOrder();
+        buyer2.viewOrderHistory();
+
+        buyer3.addToCart(order3);
+        buyer3.placeOrder();
+        buyer3.viewOrderHistory();
+
+
+
+
+
+    }
+}

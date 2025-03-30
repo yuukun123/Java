@@ -1,0 +1,6 @@
+package School_excercise_quanlychungkhoang;
+
+public interface ProcessingCommand {
+    public void registerOrder();
+    public void ex
+}

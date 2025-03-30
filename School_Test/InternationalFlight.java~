@@ -1,0 +1,6 @@
+package School_Test;
+
+public class InternationalFlight extends Flight{
+    private double InternationalTax = 0.2;
+
+}

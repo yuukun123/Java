@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction2/Abstraction2.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction2/Abstraction2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlbumCD/AlbumCD.iml" filepath="$PROJECT_DIR$/AlbumCD/AlbumCD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Author/Author.iml" filepath="$PROJECT_DIR$/Author/Author.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CODE.iml" filepath="$PROJECT_DIR$/CODE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employee/Employee.iml" filepath="$PROJECT_DIR$/Employee/Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Finance/Finance.iml" filepath="$PROJECT_DIR$/Finance/Finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fraction/Fraction.iml" filepath="$PROJECT_DIR$/Fraction/Fraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance1/Inheritance1.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance1/Inheritance1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Interface/Interface.iml" filepath="$PROJECT_DIR$/Abstraction/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Object/Object.iml" filepath="$PROJECT_DIR$/Inheritance/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Point/Point.iml" filepath="$PROJECT_DIR$/Point/Point.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PolyLine/PolyLine.iml" filepath="$PROJECT_DIR$/PolyLine/PolyLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueLinkList/QueueLinkList.iml" filepath="$PROJECT_DIR$/QueueLinkList/QueueLinkList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuickSort/QuickSort.iml" filepath="$PROJECT_DIR$/QuickSort/QuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Relationship/Relationship.iml" filepath="$PROJECT_DIR$/Relationship/Relationship.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackLinkList/StackLinkList.iml" filepath="$PROJECT_DIR$/StackLinkList/StackLinkList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestOOP/TesOOP1/TesOOP1.iml" filepath="$PROJECT_DIR$/TestOOP/TesOOP1/TesOOP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestOOP/TestOOP.iml" filepath="$PROJECT_DIR$/TestOOP/TestOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToDoList/ToDoList.iml" filepath="$PROJECT_DIR$/ToDoList/ToDoList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree/Tree.iml" filepath="$PROJECT_DIR$/Tree/Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/Triangle/Triangle.iml" />
+    </modules>
+  </component>
+</project>
